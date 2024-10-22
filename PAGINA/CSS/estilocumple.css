@@ -1,0 +1,239 @@
+body{
+
+	min-height: 100vh;
+	margin:0;
+	background: rgba(5, 7, 12, 0.40);
+	background-image: url("J:/dibujos/tela de araña.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#letra{
+	position: absolute;
+	top:5%;
+	left:30%;
+	text-align:left;
+	font-size:40pt;
+	color:black;
+	font-family: Viner Hand ITC;
+
+	text-shadow: 3px 3px 0px white;,
+	            -3px -3px 0px black;,
+	             3px 3px 0px black;,
+	            -3px -3px 0px black;;
+	
+	
+}
+#letra1{
+	position: absolute;
+	top:15%;
+	left:40%;
+	text-align: left;
+	font-size:40pt;
+	color:black;
+	font-family: Viner Hand ITC;
+	text-shadow: 3px 3px 0px white;,
+	            -3px -3px 0px black;,
+	             3px 3px 0px black;,
+	            -3px -3px 0px black;;
+}
+
+#letra2{
+	position: absolute;
+	top:22%;
+	left:18%;
+	text-align: right;
+	font-size:65pt;
+	color:red;
+	font-family: Viner Hand ITC;
+	-webkit-text-stroke:3px black;
+	text-shadow: 2px 2px 0px white,
+	            -2px -2px 0px white,
+	             2px 2px 0px white,
+	            -2px -2px 0px white;
+}
+
+#letra5{
+	position: absolute;
+	top:35.7%;
+	left:44%;
+	text-align: left;
+	font-size:16.5pt;
+	color:white;
+	font-family: cooper black;
+	text-shadow: 3px 3px 0px black;,
+}
+
+
+#imagen1{
+	
+	position: absolute;
+	top:38%;
+	left:42%;
+	text-align:left;
+
+}
+.wrapper{
+	display: inline-block;
+	transition: box-shadow 0.3s ease-in-out;
+}
+.imagen{
+	transition: opacity 0.3s ease-in-out;
+}
+.wrapper:hover{
+	box-shadow: 0 0 30px 10px rgba(255, 255, 0, 0.8), 0 0 50px 20px rgba(0, 255, 255, 0.5);
+
+}
+.imagen:hover{
+	opacity: 0;
+
+}
+
+
+#imagen2{
+	
+	position: absolute;
+	top:40%;
+	left:30%;
+	text-align:left;
+	animation-name: girar;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+
+	
+
+}
+@keyframes girar{
+	100%{
+		transform: rotateY(0deg);
+	}
+	100%{
+		transform: rotateY(360deg);
+	}
+}
+#imagen3{
+	position: absolute;
+	top:75%;
+	left:30%;
+	text-align:center;
+	animation-name: girar;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+
+	
+
+}
+@keyframes girar{
+	100%{
+		transform: rotateY(0deg);
+	}
+	100%{
+		transform: rotateY(360deg);
+	}
+}
+#imagen4{
+	
+	position: absolute;
+	top:40%;
+	left:61%;
+	text-align:right;
+	animation-name: girar;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+
+	
+
+}
+@keyframes girar{
+	100%{
+		transform: rotateY(0deg);
+	}
+	100%{
+		transform: rotateY(360deg);
+	}
+}
+#imagen5{
+	
+	position: absolute;
+	top:75%;
+	left:61%;
+	text-align:center;
+	animation-name: girar;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+
+	
+
+}
+@keyframes girar{
+	100%{
+		transform: rotateY(0deg);
+	}
+	100%{
+		transform: rotateY(360deg);
+	}
+}
+#imagen6{
+	
+	position: absolute;
+	top:58%;
+	left:8%;
+	text-align:center;
+	animation: animate-infinite 2s infinite;
+}
+
+@keyframes animate-infinite {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.2);
+	}
+	100% {
+		transform: scale(1);
+	}
+
+}
+#imagen7{
+	
+	position: absolute;
+	top:58%;
+	left:78%;
+	text-align:center;
+	animation: animate-infinite 2s infinite;
+}
+
+@keyframes animate-infinite {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.2);
+	}
+	100% {
+		transform: scale(1);
+	}
+
+}
+#imagen8{
+	
+	position: absolute;
+	top:1%;
+	left:2%;
+	text-align:left;
+
+}
+
+
+
+
+#imagen9{
+	
+	position: absolute;
+	top:1%;
+	left:85%;
+	text-align:right;
+
+}
